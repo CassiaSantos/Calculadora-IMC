@@ -20,6 +20,7 @@ body{
     display: flex; /*elementos ficam um lado do outro*/
     align-items: center;
     gap: 3.5rem;
+    padding: 2rem;
 }
 
 .hero-section img{
@@ -177,3 +178,29 @@ body{
 .alert-terrible{
     color: #dc2626;
 }
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width:70rem) {
+    .container{
+        display: block;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 100%;
+        justify-content: space-between;
+        margin-top: 18rem;
+
+        padding: 0 2rem;
+    }   
+
+    .container .hero-section img{
+        width: 28rem;
+    }
+
+    .calculator{
+        min-width: 90%;
+        margin: 0 auto;
+    }
+}
+
