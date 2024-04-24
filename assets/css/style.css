@@ -26,6 +26,7 @@ body{
 }
 
 .container{
+    background-color: #18181b;
     display: flex; /*elementos ficam um lado do outro*/
     align-items: center;
     gap: 3.5rem;
