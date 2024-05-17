@@ -38,9 +38,11 @@ body{
     margin: auto;
     max-width: 100vw;
     max-height: 100vh;
+    position:absolute;
+    justify-content: space-around;
 }
 
-.hero-section {
+.hero-section{
     display: flex;
 }
 
